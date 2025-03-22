@@ -1,0 +1,108 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif; /* Different font from default */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8; /* Light blue background for calming effect */
+    color: #333;
+}
+
+/* Selector 1: Element Selector (header) */
+header {
+    background-color: #4a90e2; /* Soothing blue */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #2a6db0; /* Border for visual separation */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 1.2em;
+}
+
+/* Selector 2: ID Selector (#intro) */
+#intro {
+    background-color: white;
+    padding: 20px;
+    margin: 0 20px 20px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Selector 3: Class Selector (.highlight-text) */
+.highlight-text {
+    font-size: 1.1em;
+    color: #2a6db0; /* Matching blue for emphasis */
+    margin-bottom: 15px;
+}
+
+/* Styling the Image */
+.awareness-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto; /* Centered with margin */
+    border: 3px solid #4a90e2; /* Border to match theme */
+    border-radius: 10px;
+    padding: 5px; /* Padding inside the border */
+}
+
+/* Styling the Tips Section */
+section h2 {
+    color: #4a90e2;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+    margin: 0 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Call to Action Section */
+#cta {
+    text-align: center;
+    background-color: #e8f0fe;
+    padding: 20px;
+    margin: 20px;
+    border: 1px dashed #4a90e2;
+    border-radius: 5px;
+}
+
+.cta-button {
+    background-color: #4a90e2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.cta-button:hover {
+    background-color: #2a6db0; /* Darker blue on hover */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4a90e2;
+    color: white;
+    margin-top: 20px;
+    border-top: 3px solid #2a6db0;
+}
